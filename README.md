@@ -350,7 +350,7 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ## 👨‍💻 Author
 
-**Samiul Islam**  
+**Samiul Seikh**  
 📧 Contact: [GitHub Issues](https://github.com/samiul1221/TI-Smart-Range-Estimator/issues)
 
 ---
