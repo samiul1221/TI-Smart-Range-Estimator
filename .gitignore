@@ -1,0 +1,146 @@
+# ====================================
+# TI Smart Range Estimator - .gitignore
+# ====================================
+
+# ============ Arduino / ESP32 ============
+# Build artifacts
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.eep
+*.lss
+*.sym
+
+# IDE files
+*.DS_Store
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Build directories
+build/
+.build/
+__vm/
+.development/
+
+# Arduino library cache
+libraries/
+
+# ============ Python ============
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+tfenv/
+.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+
+# ============ Machine Learning ============
+# Model checkpoints
+*.h5
+*.pkl
+*.joblib
+*.ckpt
+
+# Dataset cache
+*.csv.gz
+*.npy
+*.npz
+
+# TensorFlow / PyTorch
+*.pb
+*.pth
+*.onnx
+
+# Training logs
+logs/
+runs/
+wandb/
+
+# ============ Data Files ============
+# Large datasets (keep only sample data in repo)
+Dataset/
+dataset-backup/
+output/
+*.csv
+!sample_data.csv  # Exception: keep sample data
+
+# ============ System Files ============
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============ Temporary Files ============
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.log
+*.cache
+
+# ============ Credentials & Secrets ============
+.env
+.env.local
+secrets.json
+credentials.json
+*.key
+*.pem
+
+# ============ Documentation ============
+# Generated docs (keep source)
+docs/_build/
+site/
+
+# ============ Hardware Specific ============
+# Calibration data (user-specific)
+calibration_*.txt
+user_config.h
+
+# Serial monitor logs
+serial_*.txt
+debug_*.log
+
+# ============ Version Control ============
+.git/
+.gitattributes
+.svn/
+.hg/
